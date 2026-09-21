@@ -1,0 +1,26 @@
+{
+  "out": "bacon-cheeseburger.webp",
+  "source": "master.jpg",
+  "sourcePx": [
+    3546,
+    3546
+  ],
+  "box": "0.09,0.04,0.93,0.88",
+  "squarePx": 2978,
+  "sizes": [
+    400,
+    900,
+    1400,
+    2048
+  ],
+  "saturation": 1.0,
+  "brightness": 1.0,
+  "stretch": true,
+  "feather": 34,
+  "quality": 88,
+  "unsharp": {
+    "radius": 1.4,
+    "percent": 52,
+    "threshold": 3
+  }
+}

@@ -1,0 +1,1 @@
+function e(e){return!!e.capture?.still}function t(e){return e?.provenance===`photogrammetry-external`||e?.provenance===`scan-external`}function n(e){return e?.provenance===`photogrammetry-external`?`photogrammetry scan of a real dish`:`3D scan of a real dish`}export{e as n,t as r,n as t};

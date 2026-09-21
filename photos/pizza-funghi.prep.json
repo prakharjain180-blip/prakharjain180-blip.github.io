@@ -1,0 +1,26 @@
+{
+  "out": "pizza-funghi.webp",
+  "source": "pizza-funghi.orig",
+  "sourcePx": [
+    4000,
+    3000
+  ],
+  "box": "0.0000,0.1250,1.0000,0.8750",
+  "squarePx": 2250,
+  "sizes": [
+    400,
+    900,
+    1400,
+    2048
+  ],
+  "saturation": 1.0,
+  "brightness": 1.0,
+  "stretch": true,
+  "feather": 34,
+  "quality": 88,
+  "unsharp": {
+    "radius": 1.4,
+    "percent": 52,
+    "threshold": 3
+  }
+}

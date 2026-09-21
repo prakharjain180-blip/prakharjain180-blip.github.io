@@ -1,0 +1,26 @@
+{
+  "out": "tacos-carne-asada.webp",
+  "source": "master.jpg",
+  "sourcePx": [
+    4032,
+    3024
+  ],
+  "box": "0.055,0.055,0.805,0.995",
+  "squarePx": 2842,
+  "sizes": [
+    400,
+    900,
+    1400,
+    2048
+  ],
+  "saturation": 1.0,
+  "brightness": 1.0,
+  "stretch": true,
+  "feather": 34,
+  "quality": 88,
+  "unsharp": {
+    "radius": 1.4,
+    "percent": 52,
+    "threshold": 3
+  }
+}

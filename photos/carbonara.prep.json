@@ -1,0 +1,26 @@
+{
+  "out": "carbonara.webp",
+  "source": "carbonara.orig",
+  "sourcePx": [
+    4928,
+    3264
+  ],
+  "box": "0.1688,0.0000,0.8312,1.0000",
+  "squarePx": 3264,
+  "sizes": [
+    400,
+    900,
+    1400,
+    2048
+  ],
+  "saturation": 1.0,
+  "brightness": 1.0,
+  "stretch": true,
+  "feather": 34,
+  "quality": 88,
+  "unsharp": {
+    "radius": 1.4,
+    "percent": 52,
+    "threshold": 3
+  }
+}

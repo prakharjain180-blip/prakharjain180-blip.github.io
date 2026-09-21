@@ -1,0 +1,5 @@
+VistARa — built from commit c82d749
+Source commit: c82d749b19bd375b1a4c7c2b975157f8ba088aa0
+Built: 2026-09-21
+Pass: production AR-anchor hotfix (rel=ar anchor must contain only an <img>)
+Scale behaviour: allowsContentScaling=0 (Test A, physically validated)

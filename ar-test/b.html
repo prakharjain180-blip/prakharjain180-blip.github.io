@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>TEST B — scaling allowed (control)</title>
+<style>
+  :root { color-scheme: dark }
+  body { margin:0; background:#0d0c0b; color:#efe6dd;
+         font:16px/1.55 -apple-system,system-ui,sans-serif; padding:26px 18px 60px;
+         -webkit-text-size-adjust:100% }
+  h1 { font-size:22px; margin:0 0 6px }
+  .tag { display:inline-block; border-radius:999px; padding:4px 12px; font-size:12.5px;
+         font-weight:700; letter-spacing:.05em; background:#6b2f1d; color:#ffe6da }
+  p { color:#c9bfb6; margin:14px 0 }
+  a.ar { display:block; margin:24px 0 6px; line-height:0 }
+  a.ar img { width:100%; height:auto; border-radius:22px; display:block }
+  code { background:#1a1816; padding:2px 6px; border-radius:5px; font-size:12.5px;
+         color:#ffb98c; word-break:break-all }
+  ol { color:#c9bfb6; padding-left:20px } li { margin:9px 0 }
+  .n { border-top:1px solid #2a2724; margin-top:26px; padding-top:18px; font-size:13.5px; color:#8e8781 }
+  .alt { color:#ffb98c }
+</style>
+
+<h1>TEST B <span class="tag">SCALING SHOULD BE ALLOWED</span></h1>
+<p>The control. Identical page, identical file, with the lock deliberately left off. This one <em>should</em> let you resize it — if it does not, Quick Look is not offering scaling here at all and TEST A proves nothing on its own.</p>
+
+<a class="ar" rel="ar" href="/models/roman-chopped-salad.usdz"><img src="/ar-test/poster-b.png" alt="Open in AR"></a>
+
+<p style="margin-top:10px">The link above is exactly:</p>
+<p><code>&lt;a rel="ar" href="/models/roman-chopped-salad.usdz"&gt;&lt;img&gt;&lt;/a&gt;</code></p>
+
+<ol>
+  <li>Open this page in <strong>Safari</strong> on the iPhone — not inside another app.</li>
+  <li>Tap the orange panel. AR Quick Look should open the camera.</li>
+  <li>Point at a tabletop and let the dish place.</li>
+  <li><strong>Pinch it larger and smaller.</strong> Here you are expected to succeed.</li>
+  <li>Note whether a <strong>percentage badge</strong> appears, and what it says.</li>
+</ol>
+
+<div class="n">
+  <p><strong>If the camera does not open at all</strong> and you get a plain 3D preview with no AR
+  button, the link is not being recognised as an AR link — tell me and stop; that is a bug on my
+  side, not a result.</p>
+  <p>Back to <a class="alt" href="/ar-test/a.html">TEST A</a> — the locked one.</p>
+</div>
+</html>

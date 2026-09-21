@@ -1,0 +1,26 @@
+{
+  "out": "pizza-diavola.webp",
+  "source": "pizza-diavola.orig",
+  "sourcePx": [
+    6386,
+    3244
+  ],
+  "box": "0.2460,0.0000,0.7540,1.0000",
+  "squarePx": 3244,
+  "sizes": [
+    400,
+    900,
+    1400,
+    2048
+  ],
+  "saturation": 1.0,
+  "brightness": 1.0,
+  "stretch": true,
+  "feather": 34,
+  "quality": 88,
+  "unsharp": {
+    "radius": 1.4,
+    "percent": 52,
+    "threshold": 3
+  }
+}

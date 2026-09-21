@@ -1,0 +1,26 @@
+{
+  "out": "wedge-salad.webp",
+  "source": "wedge-salad.orig",
+  "sourcePx": [
+    3012,
+    2255
+  ],
+  "box": "0.1257,0.0000,0.8743,1.0000",
+  "squarePx": 2255,
+  "sizes": [
+    400,
+    900,
+    1400,
+    2048
+  ],
+  "saturation": 1.0,
+  "brightness": 1.0,
+  "stretch": true,
+  "feather": 34,
+  "quality": 88,
+  "unsharp": {
+    "radius": 1.4,
+    "percent": 52,
+    "threshold": 3
+  }
+}

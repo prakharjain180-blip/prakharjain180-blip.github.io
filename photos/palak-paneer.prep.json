@@ -1,0 +1,26 @@
+{
+  "out": "palak-paneer.webp",
+  "source": "palak-paneer.orig",
+  "sourcePx": [
+    3024,
+    3024
+  ],
+  "box": "0.095,0.44,0.595,0.94",
+  "squarePx": 1512,
+  "sizes": [
+    400,
+    900,
+    1400
+  ],
+  "saturation": 1.0,
+  "brightness": 1.0,
+  "stretch": true,
+  "feather": 34,
+  "quality": 88,
+  "unsharp": {
+    "radius": 1.4,
+    "percent": 52,
+    "threshold": 3
+  },
+  "note": "Re-cropped 2026-09-20. The original frame was about 60% naan basket, with the palak paneer a small bowl in the corner \u2014 the dish was not the subject of its own photograph. This crop puts the karahi on the plate and leaves the naan as the supporting element it is on the table."
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>VistARa — AR Quick Look isolation</title>
+<style>
+  :root { color-scheme: dark }
+  body { margin:0; background:#0d0c0b; color:#efe6dd;
+         font:16px/1.55 -apple-system,system-ui,sans-serif; padding:28px 18px 60px }
+  h1 { font-size:22px; margin:0 0 10px } p { color:#c9bfb6 }
+  a.card { display:block; margin:14px 0; padding:20px; border-radius:18px; text-decoration:none;
+           border:1px solid #2a2724; background:#161412 }
+  a.card b { display:block; font-size:18px; margin-bottom:3px } a.card span { color:#9b938c; font-size:13.5px }
+  .on b { color:#7fd6a0 } .off b { color:#ffab84 }
+  .n { border-top:1px solid #2a2724; margin-top:26px; padding-top:18px; font-size:13.5px; color:#8e8781 }
+</style>
+<h1>AR Quick Look isolation</h1>
+<p>Two pages, the same model file, one difference between them. Open each in <strong>Safari</strong>
+   on the iPhone and record whether it lets you pinch the dish to a different size.</p>
+<a class="card on" href="/ar-test/a.html"><b>TEST A — lock on</b>
+  <span>the link carries <code>#allowsContentScaling=0</code> · should NOT resize</span></a>
+<a class="card off" href="/ar-test/b.html"><b>TEST B — lock off</b>
+  <span>no fragment, the control · SHOULD resize</span></a>
+<div class="n">
+  <p>A refuses and B allows → the fragment works, and VistARa's own integration is what to fix.<br>
+     Both allow → the fragment is not honoured on this iOS build; it is a platform limit.<br>
+     Neither opens the camera → the link is not being recognised as an AR link.</p>
+  <p>Nothing on these pages checks your device or swaps in a 3D fallback. If AR is unavailable,
+     that is the finding.</p>
+</div>
+</html>
