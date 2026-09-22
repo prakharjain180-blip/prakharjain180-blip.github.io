@@ -1,12 +1,7 @@
-VistARa — built from commit 29dc92a
+VistARa — Indian-led AR menu review
 Built: 2026-09-22
-Pass: flagship AR review pool. Adds /flagship-ar-review/ — an internal QA route,
-      not the VistARa menu. The production bundle is unchanged; src/ was not
-      touched in this pass.
-Routes: /                     production restaurant (unchanged)
-        /ar-quality-test/     burger A/B + salad control (unchanged)
-        /flagship-ar-review/  12 candidates + 2 controls  (new)
-Scale:  allowsContentScaling=0 (Test A, physically validated)
-        Candidates marked "provisional size" carry no metric scale from source.
-        PROVISIONAL TEST SCALE — NOT VERIFIED PORTION SIZE.
-Status: no candidate has passed physical review.
+Routes: /                     production restaurant
+        /ar-quality-test/     burger A/B (salad control removed with the dish)
+        /flagship-ar-review/  10-dish AR menu — THE REVIEW POOL
+Payload: 55 MB total, repacked losslessly from 130 MB.
+Status: no dish has passed physical AR review. Roman Chopped Salad removed.
