@@ -1,5 +1,8 @@
-VistARa — built from commit c82d749
-Source commit: c82d749b19bd375b1a4c7c2b975157f8ba088aa0
+VistARa — built from commit 0d9249a
+Source commit: see repo history at Documents/VistARa
 Built: 2026-09-21
-Pass: production AR-anchor hotfix (rel=ar anchor must contain only an <img>)
+Pass: AR quality test route only. The production bundle is byte-identical to the
+      previous deployment (c82d749); nothing in src/ changed.
+Added: /ar-quality-test/ — a diagnostic route, not part of the menu.
 Scale behaviour: allowsContentScaling=0 (Test A, physically validated)
+Candidate scale: PROVISIONAL TEST SCALE — NOT VERIFIED PORTION SIZE
