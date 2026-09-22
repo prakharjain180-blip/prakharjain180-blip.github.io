@@ -1,8 +1,12 @@
-VistARa — built from commit 0d9249a
-Source commit: see repo history at Documents/VistARa
-Built: 2026-09-21
-Pass: AR quality test route only. The production bundle is byte-identical to the
-      previous deployment (c82d749); nothing in src/ changed.
-Added: /ar-quality-test/ — a diagnostic route, not part of the menu.
-Scale behaviour: allowsContentScaling=0 (Test A, physically validated)
-Candidate scale: PROVISIONAL TEST SCALE — NOT VERIFIED PORTION SIZE
+VistARa — built from commit 29dc92a
+Built: 2026-09-22
+Pass: flagship AR review pool. Adds /flagship-ar-review/ — an internal QA route,
+      not the VistARa menu. The production bundle is unchanged; src/ was not
+      touched in this pass.
+Routes: /                     production restaurant (unchanged)
+        /ar-quality-test/     burger A/B + salad control (unchanged)
+        /flagship-ar-review/  12 candidates + 2 controls  (new)
+Scale:  allowsContentScaling=0 (Test A, physically validated)
+        Candidates marked "provisional size" carry no metric scale from source.
+        PROVISIONAL TEST SCALE — NOT VERIFIED PORTION SIZE.
+Status: no candidate has passed physical review.
