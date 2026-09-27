@@ -1,11 +1,10 @@
-VistARa — built from commit d92bcd4
+VistARa — built from commit 356b836
 Built: 2026-09-27
-Pass: samuelomo manual batch audit. /flagship-ar-review/ only — an internal QA
-      route, not the VistARa menu. The production bundle is byte-identical.
-Routes: /                     production restaurant (unchanged)
-        /ar-quality-test/     burger A/B (unchanged)
-        /flagship-ar-review/  8 candidates: 2 physically approved, 6 untested
-Changes: +2 dishes (glazed short rib, Schezwan fried rice); the four live
-         samuelomo dishes re-placed at their captures' own scale; pages now
-         state the 1024 texture that actually ships.
-Status: no samuelomo dish has been physically reviewed on a phone.
+Pass: final flagship AR pass. Internal QA routes only; the production bundle
+      is byte-identical and the public menu is unchanged.
+Routes: /                      production restaurant (unchanged)
+        /ar-quality-test/      burger A/B (unchanged)
+        /flagship-ar-review/   7 dishes: 2 locked, 1 strong candidate, 4 new
+        /flagship-ar-reserves/ reserve bench (3 AR-ready, 8 documented)
+        /ar-placement-test/    origin A/B (platter) and lighting A/B (burger)
+Status: the four new dishes have not been on a phone.
