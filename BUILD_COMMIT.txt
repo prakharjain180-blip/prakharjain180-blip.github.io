@@ -1,7 +1,11 @@
-VistARa — Indian-led AR menu review
-Built: 2026-09-22
-Routes: /                     production restaurant
-        /ar-quality-test/     burger A/B (salad control removed with the dish)
-        /flagship-ar-review/  10-dish AR menu — THE REVIEW POOL
-Payload: 55 MB total, repacked losslessly from 130 MB.
-Status: no dish has passed physical AR review. Roman Chopped Salad removed.
+VistARa — built from commit d92bcd4
+Built: 2026-09-27
+Pass: samuelomo manual batch audit. /flagship-ar-review/ only — an internal QA
+      route, not the VistARa menu. The production bundle is byte-identical.
+Routes: /                     production restaurant (unchanged)
+        /ar-quality-test/     burger A/B (unchanged)
+        /flagship-ar-review/  8 candidates: 2 physically approved, 6 untested
+Changes: +2 dishes (glazed short rib, Schezwan fried rice); the four live
+         samuelomo dishes re-placed at their captures' own scale; pages now
+         state the 1024 texture that actually ships.
+Status: no samuelomo dish has been physically reviewed on a phone.
