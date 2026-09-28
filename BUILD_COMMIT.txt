@@ -1,3 +1,11 @@
+VistARa legacy host (GitHub Pages)
+Updated: 2026-09-28
+The canonical VistARa is https://tryvistara.netlify.app/ (Netlify, built from
+the private repo prakharjain180-blip/vistara). This host stays as a fallback:
+its root is the previous build (c37d7f9), and /try-ar/ now points each page to
+the matching page on the canonical site.
+
+Previous record:
 VistARa — built from commit c37d7f9
 Built: 2026-09-28
 Pass: AR access. The production app bundle is byte-identical; 404.html (the
