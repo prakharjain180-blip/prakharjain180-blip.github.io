@@ -1,10 +1,10 @@
-VistARa — built from commit 1d6f843
+VistARa — built from commit c37d7f9
 Built: 2026-09-28
-Pass: compact AR menu. Internal QA routes only; the production bundle is
-      byte-identical and the public menu is unchanged.
+Pass: AR access. The production app bundle is byte-identical; 404.html (the
+      app's deep-link fallback) is refreshed from the current build.
 Routes: /                      production restaurant (unchanged)
-        /flagship-ar-review/   8 dishes: 6 physically locked, 2 repaired
-                               awaiting final physical confirmation
-        /flagship-ar-reserves/ reserve bench (steak added, file unchanged)
-        /ar-placement-test/    engineering evidence (unchanged)
-Status: the momo remnant removal and the burrata plate have not been on a phone.
+        /try-ar/               the QR route: 7 accepted dishes; momos built,
+                               unlisted until their 5-second confirmation
+        /flagship-ar-review/   8 dishes: 7 locked, momos awaiting confirmation
+        /flagship-ar-reserves/ reserve bench
+Status: no iPhone browser has run /try-ar/ and no phone has scanned the QR.
