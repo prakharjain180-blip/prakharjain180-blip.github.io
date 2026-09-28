@@ -1,10 +1,10 @@
-VistARa — built from commit 7349692
+VistARa — built from commit 1d6f843
 Built: 2026-09-28
-Pass: AR stabilization. Internal QA routes only; the production bundle is
+Pass: compact AR menu. Internal QA routes only; the production bundle is
       byte-identical and the public menu is unchanged.
 Routes: /                      production restaurant (unchanged)
-        /flagship-ar-review/   9 dishes: 2 locked, 2 servingware repaired,
-                               2 new, 3 physically passed
-        /flagship-ar-reserves/ reserve bench
-        /ar-placement-test/    engineering evidence (decided: B, B)
-Status: repaired plates and the two new dishes have not been on a phone.
+        /flagship-ar-review/   8 dishes: 6 physically locked, 2 repaired
+                               awaiting final physical confirmation
+        /flagship-ar-reserves/ reserve bench (steak added, file unchanged)
+        /ar-placement-test/    engineering evidence (unchanged)
+Status: the momo remnant removal and the burrata plate have not been on a phone.
